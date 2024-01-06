@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+.header {
+    position: fixed;
+    background-color: #334347;
+    height: 60px;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.nav {
+    position: fixed;
+    border-right: solid #D4D7DB 1px;
+    height: 100%;
+    width: 350px;
+    margin-top: 60px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.intro-photo {
+    width: 100%;
+    height: auto;
+}
+
+.course-progress {
+    text-align: center;
+    font-size: 18px;
+}
+
+.progress-bar {
+    background-color: #D4D7DB;
+    height: 10px;
+    width: 80%;
+    border-radius: 8px;
+    margin: 20px auto -5px;
+}
+
+.progress-percentage {
+    background-color: #fe6e00;
+    height: 10px;
+    width: 33%;
+    border-radius: 8px;
+}
+
+.nav-hr {
+    border: none;
+    border-top: solid #D4D7DB 1px;
+}
+
+.nav-items {
+    margin: 25px 0 0 0;
+}
+
+.curriculum {
+    border-left: 3px solid #000;
+}
+
+.curriculum,
+.instructor {
+    padding: 5px 10px 5px 25px;
+    cursor: pointer;
+}
+
+.instructor:hover {
+    background-color: #E7E9ED;
+}
+
+.main {
+    margin-left: 350px;
+    padding: 100px 40px 30px 40px;
+    width: auto;
+    height: 1000px;
+}
+
+.course-progress-bar {
+    height: 35px;
+    background-color: #F9DAC1;
+    border-radius: 5px;
+}
+
+.course-percentage-bar {
+    height: 35px;
+    width: 190px;
+    background-color: #F68222;
+    border-radius: 5px;
+}
+
+.next-lecture-btn {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 20px 5px 20px;
+}
+
+.table-content {
+    background-color: #F4F8F9;
+    width: 100%;
+    border-spacing: 0;
+}
+
+.tr-lesson {
+    height: 50px;
+}
+
+.td-check {
+    border-right: solid #F0C39A 1px;
+    border-top: solid white 1px;
+    text-align: center;
+    width: 60px;
+    color: #F68222;
+    font-size: 19px;
+}
+
+.td-lesson {
+    padding-left: 10px;
+    border-top: solid white 1px;
+    font-weight: normal;
+}
+
+.td-start {
+    border-top: solid white 1px;
+    width: 80px;
+}
+
+.start-btn {
+    padding: 5px 10px;
+    background-color: #F1923D;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.start-btn:hover {
+    background-color: #F47B0F;
+}
+
+.tr-lesson:hover {
+    background-color: #F9DAC1;
+    cursor: pointer;
+}
+
+.chapter-title {
+    margin-top: 25px;
+}
+
+.chapter-last {
+    padding-bottom: 50px;
+}
