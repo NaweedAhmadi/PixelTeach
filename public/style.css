@@ -124,6 +124,11 @@ body {
   height: 50px;
 }
 
+.tr-lesson-checked {
+  height: 50px;
+  background-color: #f9dac1;
+}
+
 .td-check {
   border-right: solid #f0c39a 1px;
   border-top: solid white 1px;
